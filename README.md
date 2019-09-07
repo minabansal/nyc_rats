@@ -21,17 +21,38 @@ Data was produced by the City of New York via their 311 portal.
 
 ---
 
-### Questions
+### Research Question/Hypothesis
 
-Q1 - Which Borough and zip codes have the most rat sightings?
+Hypothesis - Climate change will impact rat population
 
-Q2 - Is there a correlation with zip code population and restaurant density?
+Questions
+* Is there a correlation between climate and rat sightings (temperature, humidity, pressure, etc.)?
+* Are there seasonal differences in rat sightings?
+* Where are sightings more likely to occur? In residential areas or public areas?
 
-Q3 - Have rat sightings increased over the years?
+### Materials/Methods
 
-Q3 - Is there a seasonal pattern to rat sightings?
+Data Sources
+* Rat sightings: NYC Open Data
+* NYC weather: NOAA
+* Shape files: NYC Open Data
 
-Q4 - Is there a correlation between rat sightings and climate parameters?
+Packages Used
+* Pandas
+* Modin
+* Numpy 
+* Matplotlib
+* Seaborn
+* Geopandas
+* Datetime
 
-Q5 - Do fluctiuations in NYC weather correlate with rat sightings?
+
+### Conclusion
+
+* There is an increase in the NYC rat population over time
+* Rat sightings are more likely to occur in residential areas like Brooklyn (specifically Bushwick and Bed-Stuy)
+* There is no correlation between population and rat sightings
+* As temperatures increase, so do rat sightings
+
+
 
